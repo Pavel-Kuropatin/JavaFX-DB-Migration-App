@@ -38,6 +38,7 @@ public class JavaFxApplication extends Application {
         stage.setTitle("Hello!");
         stage.setScene(scene);
         stage.setResizable(false);
+        stage.setAlwaysOnTop(true);
         stage.show();
     }
 
